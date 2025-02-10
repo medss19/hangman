@@ -1,37 +1,30 @@
 # Hangman Game 🎮
 
 __I created this game in grade 11 for fun.__ 
-A Python-based interactive command-line Hangman game featuring multiple word categories and ASCII art animations.
+A Python-based interactive command-line Hangman game. Perfect for learning Python and practicing open-source contributions!
 
 ## Features
 
 - Multiple word categories (Fruits, Countries, Fast Food, Adjectives)
-- ASCII art animations for hangman states
+- ASCII art animations
 - Player name customization
-- Score tracking
 - Interactive command-line interface
 
 ## Installation
 
 ```bash
 git clone https://github.com/medss19/hangman
-cd hangman-game
-python -m pip install -r requirements.txt
+cd hangman
+pip install -e .
 ```
 
 ## Usage
 
 ```bash
-python hangman.py
+hangman
+# or
+python -m src.hangman
 ```
-
-## Game Rules
-
-1. Enter your name
-2. Choose a word category
-3. Guess letters or the complete word
-4. You have 5 attempts before the game ends
-5. Save the hangman by guessing the word correctly!
 
 ## Project Structure
 
@@ -40,9 +33,9 @@ hangman-game/
 │
 ├── src/
 │   ├── __init__.py
-│   ├── hangman.py
-│   ├── word_bank.py
-│   └── ascii_art.py
+│   ├── hangman.py      # Main game logic
+│   ├── word_bank.py    # Word categories
+│   └── ascii_art.py    # Hangman drawings
 │
 ├── tests/
 │   ├── __init__.py
@@ -51,17 +44,23 @@ hangman-game/
 ├── requirements.txt
 ├── setup.py
 ├── LICENSE
+├── CONTRIBUTING.md
 └── README.md
 ```
 
+## Learning & Practice
+
+Feel free to use this project for:
+- Learning Python programming
+- Understanding object-oriented design
+- Practicing test-driven development
+- Getting started with open source
+- Implementing your own features
+
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add: AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+MIT License - feel free to use, modify, and distribute!
