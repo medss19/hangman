@@ -65,8 +65,3 @@ hangman-game/
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername)
-Project Link: [https://github.com/yourusername/hangman-game](https://github.com/yourusername/hangman-game)
