@@ -1,5 +1,6 @@
 # Hangman Game
 
+I created this game in grade 11 for fun.
 Welcome to the Hangman game! This simple text-based Hangman game allows you to guess words and save the hangman from getting hanged. The game provides different categories of words, and you can choose to guess a letter or the entire word.
 
 ## How to Play
