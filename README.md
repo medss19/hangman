@@ -1,39 +1,72 @@
-# Hangman Game
+# Hangman Game 🎮
 
-I created this game in grade 11 for fun.
-Welcome to the Hangman game! This simple text-based Hangman game allows you to guess words and save the hangman from getting hanged. The game provides different categories of words, and you can choose to guess a letter or the entire word.
+##I created this game in grade 11 for fun.##
+A Python-based interactive command-line Hangman game featuring multiple word categories and ASCII art animations.
 
-## How to Play
+## Features
 
-1. Run the program.
-2. Enter your name when prompted.
-3. Choose to play the game by typing 'y' or exit by typing 'n'.
-4. If you choose to play:
-   - You will be given a random word to guess.
-   - You can guess a letter or the entire word.
-   - You have a limited number of turns to guess the correct word.
-   - The game will display the hangman drawings as you make incorrect guesses.
-   - Successfully guess the word to save the hangman.
-   - Decide whether you want to strike a new word after each round.
+- Multiple word categories (Fruits, Countries, Fast Food, Adjectives)
+- ASCII art animations for hangman states
+- Player name customization
+- Score tracking
+- Interactive command-line interface
 
-## Hangman Drawings
+## Installation
 
-The hangman drawings are displayed based on the number of incorrect guesses. Here are the stages:
+```bash
+git clone https://github.com/medss19/hangman-game
+cd hangman-game
+python -m pip install -r requirements.txt
+```
 
-1. Empty gallows
-2. Head
-3. Head and body
-4. Head, body, and one leg
-5. Head, body, and both legs (game over)
+## Usage
 
-## Word Categories
+```bash
+python hangman.py
+```
 
-The game provides words from various categories, including:
-- Fruit
-- Adjective
-- Fast Food
-- Country
+## Game Rules
 
-## Enjoy the Game!
+1. Enter your name
+2. Choose a word category
+3. Guess letters or the complete word
+4. You have 5 attempts before the game ends
+5. Save the hangman by guessing the word correctly!
 
-Have fun playing the Hangman game! Test your word-guessing skills and see if you can save the hangman from his fate. If you ever want to stop playing, simply type 'n' when prompted. Thank you for playing! 😊
+## Project Structure
+
+```
+hangman-game/
+│
+├── src/
+│   ├── __init__.py
+│   ├── hangman.py
+│   ├── word_bank.py
+│   └── ascii_art.py
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_hangman.py
+│
+├── requirements.txt
+├── setup.py
+├── LICENSE
+└── README.md
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add: AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - [@yourusername](https://twitter.com/yourusername)
+Project Link: [https://github.com/yourusername/hangman-game](https://github.com/yourusername/hangman-game)
