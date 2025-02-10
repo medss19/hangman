@@ -14,7 +14,7 @@ A Python-based interactive command-line Hangman game featuring multiple word cat
 ## Installation
 
 ```bash
-git clone https://github.com/medss19/hangman-game
+git clone https://github.com/medss19/hangman
 cd hangman-game
 python -m pip install -r requirements.txt
 ```
