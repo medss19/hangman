@@ -29,7 +29,7 @@ python -m src.hangman
 ## Project Structure
 
 ```
-hangman-game/
+hangman/
 │
 ├── src/
 │   ├── __init__.py
