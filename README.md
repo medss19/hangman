@@ -1,6 +1,6 @@
 # Hangman Game 🎮
 
-##I created this game in grade 11 for fun.##
+__I created this game in grade 11 for fun.__ 
 A Python-based interactive command-line Hangman game featuring multiple word categories and ASCII art animations.
 
 ## Features
