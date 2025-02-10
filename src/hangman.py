@@ -3,8 +3,8 @@ import time
 import sys
 from typing import Tuple, List
 
-from ascii_art import HANGMAN_STATES
-from word_bank import WORD_CATEGORIES
+from .ascii_art import HANGMAN_STATES
+from .word_bank import WORD_CATEGORIES
 
 class HangmanGame:
     def __init__(self):
