@@ -63,4 +63,4 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT License - feel free to use, modify, and distribute!
+MIT [LICENSE](LICENSE) - feel free to use, modify, and distribute!
